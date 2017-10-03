@@ -11,10 +11,11 @@
     </head>
     <body>
       <h1>Cat Rescue</h1>
-      <form id="new-cat">
+      <form id="new-cat" method="GET">
         <input type="text" name='cat[name]' id="cat-name" placeholder="What is the cat's name?" value="Mr. Kittums">
         <textarea name="cat[note]" id="cat-note" placeholder="Tell us a bit about this cat"></textarea>
-        <input type="submit" value='Save My Cat'>
+        <input type="text" name="cat[image]" id="cat-image" placeholder="Insert your image link here!" value="Insert your image link here!!!">
+        <input id="btn-click" type="submit" value='Save My Cat'>
       </form>
       <ul id="cats">
       </ul>

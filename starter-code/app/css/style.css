@@ -52,7 +52,29 @@ form input[type=submit]:hover{
 }
 
 ul {
-  text-align: left;
-  max-width: 300px;
+  text-align: center;
+  list-style: none;
+  max-width: 1000px;
   margin: 2rem auto;
+}
+
+li {
+  background-color: rgba(128, 128, 155 , .4);
+  border: 2px solid yellow;
+  border-radius: 5px;
+  font-family: "Helvetica";
+  font-size: 24px;
+  font-weight: 700;
+  margin: 10px 0px;
+  padding: 36px 0px 0px 0px;
+}
+
+li i {
+  color: yellow;
+  font-size: 48px;
+}
+
+li img {
+  border: 1px solid white;
+  border-radius: 5px;
 }
